@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/css/dashboard.css">
+</head>
+<body>
+
+    <header>
+        <h2>Trucking Management System</h2>
+
+    </header>
+
+    <main>
+        <h1>Dashboard</h1>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Available Trucks</h3>
+                <p><%= truckCounts.available %></p>
+            </div>
+
+            <div class="card">
+                <h3>Trucks In Transit</h3>
+                <p><%= truckCounts.inTransit %></p>
+            </div>
+
+            <div class="card">
+                <h3>Trucks In Maintenance</h3>
+                <p><%= truckCounts.maintenance %></p>
+            </div>
+        </div>
+
+        <section>
+            <h2>Current Loads</h2>
+
+            <% for (const load of loads) { %>
+                <div class="load">
+                    <p>Truck ID: <%= load.truckId %></p>
+                    <p>Driver: <%= load.driverName %></p>
+                    <p>Destination: <%= load.destination %></p>
+                    <p>Estimated Delivery: <%= load.estimatedDelivery %></p>
+                    <p>Miles: <%= load.miles %></p>
+                </div>
+            <% } %>
+
+            <% if (loads.length === 0) { %>
+                <p>No active loads yet.</p>
+            <% } %>
+        </section>
+
+        
+    </main>
+
+</body>
+</html>

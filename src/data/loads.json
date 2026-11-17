@@ -1,0 +1,58 @@
+
+[
+    {
+        "loadId": 1,
+        "companyId": 1,
+        "truckId": 1,
+        "driverId": 1,
+        "driverName": "John Smith",
+        "destination": "Dallas, TX",
+        "estimatedDelivery": "2026-11-20",
+        "miles": 500,
+        "status": "In Transit"
+    },
+    {
+        "loadId": 2,
+        "companyId": 1,
+        "truckId": 4,
+        "driverId": 3,
+        "driverName": "Michael Davis",
+        "destination": "Houston, TX",
+        "estimatedDelivery": "2026-11-21",
+        "miles": 350,
+        "status": "In Transit"
+    },
+    {
+        "loadId": 3,
+        "companyId": 1,
+        "truckId": 5,
+        "driverId": 2,
+        "driverName": "David Johnson",
+        "destination": "San Antonio, TX",
+        "estimatedDelivery": "2026-11-22",
+        "miles": 240,
+        "status": "In Transit"
+    },
+    {
+        "loadId": 4,
+        "companyId": 1,
+        "truckId": 6,
+        "driverId": 5,
+        "driverName": "James Anderson",
+        "destination": "Austin, TX",
+        "estimatedDelivery": "2026-11-23",
+        "miles": 310,
+        "status": "In Transit"
+    },
+    {
+        "loadId": 5,
+        "companyId": 1,
+        "truckId": 2,
+        "driverId": 4,
+        "driverName": "Robert Wilson",
+        "destination": "Laredo, TX",
+        "estimatedDelivery": "2026-11-15",
+        "miles": 180,
+        "status": "Delivered"
+    }
+]

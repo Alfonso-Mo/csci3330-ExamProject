@@ -1,0 +1,38 @@
+
+[
+    {
+        "driverId": 1,
+        "companyId": 1,
+        "driverName": "John Smith",
+        "phone": "555-123-4567",
+        "status": "Assigned"
+    },
+    {
+        "driverId": 2,
+        "companyId": 1,
+        "driverName": "David Johnson",
+        "phone": "555-987-6543",
+        "status": "Available"
+    },
+    {
+        "driverId": 3,
+        "companyId": 1,
+        "driverName": "Michael Davis",
+        "phone": "555-234-5678",
+        "status": "Assigned"
+    },
+    {
+        "driverId": 4,
+        "companyId": 1,
+        "driverName": "Robert Wilson",
+        "phone": "555-345-6789",
+        "status": "Off Duty"
+    },
+    {
+        "driverId": 5,
+        "companyId": 1,
+        "driverName": "James Anderson",
+        "phone": "555-456-7890",
+        "status": "Available"
+    }
+]

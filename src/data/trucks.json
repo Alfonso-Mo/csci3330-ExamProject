@@ -1,0 +1,63 @@
+
+[
+    {
+        "truckId": 1,
+        "companyId": 1,
+        "truckName": "Truck 101",
+        "status": "In Transit"
+    },
+    {
+        "truckId": 2,
+        "companyId": 1,
+        "truckName": "Truck 102",
+        "status": "Available"
+    },
+    {
+        "truckId": 3,
+        "companyId": 1,
+        "truckName": "Truck 103",
+        "status": "Maintenance"
+    },
+    {
+        "truckId": 4,
+        "companyId": 1,
+        "truckName": "Truck 104",
+        "status": "In Transit"
+    },
+    {
+        "truckId": 5,
+        "companyId": 1,
+        "truckName": "Truck 105",
+        "status": "In Transit"
+    },
+    {
+        "truckId": 6,
+        "companyId": 1,
+        "truckName": "Truck 106",
+        "status": "In Transit"
+    },
+    {
+        "truckId": 7,
+        "companyId": 1,
+        "truckName": "Truck 107",
+        "status": "Available"
+    },
+    {
+        "truckId": 8,
+        "companyId": 1,
+        "truckName": "Truck 108",
+        "status": "Maintenance"
+    },
+    {
+        "truckId": 9,
+        "companyId": 1,
+        "truckName": "Truck 109",
+        "status": "Available"
+    },
+    {
+        "truckId": 10,
+        "companyId": 1,
+        "truckName": "Truck 110",
+        "status": "Available"
+    }
+]

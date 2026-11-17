@@ -1,0 +1,16 @@
+[
+    {
+        "employeeId": 1,
+        "companyId": 1,
+        "employeeName": "Alfonso Montelongo",
+        "employeeEmail": "1234@gmail.com",
+        "hashedPassword": "$2b$12$AzBtIpCNJbf0uKQ6loj3Pu9KY5twMVRwldaOUlZMb8K5qX.g/ioRa"
+    },
+    {
+        "employeeId": 2,
+        "companyId": 2,
+        "employeeName": "brayan Rod",
+        "employeeEmail": "123@gmail.com",
+        "hashedPassword": "$2b$12$AmIqOx.YtdvvJjVVp.ZVyujpCl9FxVt3DGzoIjk2av9eqKHZsmrDi"
+    }
+]

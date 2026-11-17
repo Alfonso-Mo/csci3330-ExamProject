@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/login.css">
+    <title>Login - Trucking Management System</title>
+</head>
+
+<body>
+    <header></header>
+
+    <div id="parentDiv">
+
+        <h1 id="welcomeTitle">Trucking Management System</h1>
+        <h2>Employee Login</h2>
+
+        <!-- form -->
+        <form action="/login" method="POST">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Log In</button>
+
+        </form>
+
+        <p> <%=  %> </p>
+
+        <!-- Register a new company -->
+        <div id="alreadyIn">
+            <p>Don't have an account?</p>
+            <a href="/register">Register a Company</a>
+        </div>
+
+    </div>
+</body>
+</html>
